@@ -1,5 +1,10 @@
 #jumbotron1{
-    background-image: url('images/ordination.jpg');
+    background-image: url('images/goodGod.jpg');
     background-size: cover;
     height: 30%;
+}
+#greeting{
+    padding-left: 2%;
+    font-size: x-large;
+    font-weight: bold;
 }
