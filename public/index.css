@@ -1,5 +1,5 @@
 body{
-    background: yellow;
+    background: rgb(0, 255, 242);
     height: 70vh;
 }
 #jumbotron1{
@@ -74,4 +74,21 @@ baptism class editng*/
     border-radius: 50%;
     width: 10px;
     height: 10px;
+}
+/*
+Media query for large screens */
+@media screen and (min-width: 700px) {
+    .slider{
+        height: 200px;
+        width: 200px;
+    }
+}
+
+/*
+Media query for small screens */
+@media screen and (min-width: 700px) {
+    .slider{
+        height: 200px;
+        width: 200px;
+    }
 }
