@@ -87,8 +87,15 @@ Media query for large screens */
 /*
 Media query for small screens */
 @media screen and (min-width: 700px) {
+    .sliderLeft{
+        height: 200px;
+        width: 200px;
+        margin-left: 50%;
+        margin-right: 0%;
+    }
     .slider{
         height: 200px;
         width: 200px;
+        padding: 5px;
     }
 }
