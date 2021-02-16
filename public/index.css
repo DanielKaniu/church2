@@ -76,22 +76,33 @@ baptism class editng*/
     height: 10px;
 }
 /*
-Media query for large screens */
-@media screen and (min-width: 700px) {
-    .slider{
+Media query for small screens */
+@media screen and (max-width: 700px) {
+    #rev{
         height: 200px;
-        width: 200px;
+        width: 500px;
+    }
+    #pas{
+        height: 200px;
+        width: 200px; 
+    }
+    .slider{
+        padding-top: 5px;
     }
 }
 
 /*
-Media query for small screens */
+Media query for large screens */
 @media screen and (min-width: 700px) {
     .sliderLeft{
         height: 200px;
         width: 200px;
         margin-left: 50%;
-        margin-right: 0%;
+    }
+    .sliderRight{
+        height: 200px;
+        width: 200px;
+        margin-left: auto;
     }
     .slider{
         height: 200px;
