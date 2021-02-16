@@ -94,6 +94,9 @@ Media query for small screens */
 /*
 Media query for large screens */
 @media screen and (min-width: 700px) {
+    #ministers{
+        padding-bottom: 100px;
+    }
     .sliderLeft{
         height: 200px;
         width: 200px;
