@@ -73,6 +73,13 @@ baptism class editng*/
   width: 10px;
   height: 10px;
 }
+.baptism{
+  text-align: center;
+  font-family: 'Monoton', cursive;
+  word-spacing: 15px;
+  font-size: 30px;
+}
+
 /*
 Media query for small screens */
 @media screen and (max-width: 700px) {
