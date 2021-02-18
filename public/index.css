@@ -79,6 +79,12 @@ baptism class editng*/
   word-spacing: 15px;
   font-size: 30px;
 }
+#map {
+  height: 300px;
+  /* The height is 400 pixels */
+  width: 90%;
+  /* The width is the width of the web page */
+}
 .icons{
   padding-left: 10%;
 }
