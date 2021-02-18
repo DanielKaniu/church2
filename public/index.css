@@ -79,6 +79,9 @@ baptism class editng*/
   word-spacing: 15px;
   font-size: 30px;
 }
+.icons{
+  padding-left: 10%;
+}
 
 /*
 Media query for small screens */

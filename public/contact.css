@@ -1,12 +1,12 @@
 .heading {
-    border-bottom: 2px dotted indianred;
-    text-align: center;
-  }
-  .btn-info {
-    width: 50%;
-    background: transparent;
-    transition: all 0.5s ease-in-out;
-  }
-  .contact {
-    color: midnightblue;
-  }
+  border-bottom: 2px dotted indianred;
+  text-align: center;
+}
+.btn-info {
+  width: 50%;
+  background: transparent;
+  transition: all 0.5s ease-in-out;
+}
+.contact {
+  color: midnightblue;
+}
