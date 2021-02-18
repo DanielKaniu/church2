@@ -1,0 +1,27 @@
+.ribbon-emoji {
+    font-size: xx-large;
+  }
+  .topic1 {
+    animation: heart 1.5s infinite ease-in;
+  }
+  .topic {
+    padding-top: 5vh;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+  }
+  .center-paragraph {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 500;
+    word-spacing: 15px;
+  }
+  .contact {
+    color: aquamarine;
+  }
+  .jumbot {
+    background-color: purple;
+    color: lightgreen;
+    text-align: center;
+    font-weight: bolder;
+  }
