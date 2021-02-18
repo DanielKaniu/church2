@@ -1,33 +1,12 @@
-.jumbo {
-    background-color: cadetblue;
-    height: 30vh;
+.heading {
+    border-bottom: 2px dotted indianred;
     text-align: center;
-    padding-top: 10vh;
-    color: azure;
-    font-size: 15px;
   }
-  
-  .praying-emoji {
-    font-size: 20px;
+  .btn-info {
+    width: 50%;
+    background: transparent;
+    transition: all 0.5s ease-in-out;
   }
   .contact {
-    color: antiquewhite;
-  }
-  .prayer {
-    color: azure;
-    font-size: 15px;
-    font-weight: bolder;
-    font-family: monospace;
-    text-align: center;
-  }
-  
-  .prayer-info {
-    font-family: monospace;
-    font-size: 15px;
-  }
-  .jumbot {
-    background-color: purple;
-    color: lightgreen;
-    text-align: center;
-    font-weight: bolder;
+    color: midnightblue;
   }
