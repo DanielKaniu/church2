@@ -37,12 +37,24 @@
       <p id="greeting"></p>
 
       <br>
-      
-      <br><br>
 
+      <!--
+      - This container has all the pages of the application. 
+      - It has the pill navigation type of bootstrap.
+      - To navigate, just press the required pills. -->
       <div class="container">
+
+        <!--
+        - This row houses only the headers of the pills, e.g., home, contact etc.
+        - The row is associated with another row that contains the body bits. -->
         <div class="row justify-content-center">
-            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+
+          <!--
+          This unordered list houses the pill tabs used for navigating through the tabs. -->
+          <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+
+            <!--
+            This is the pill associated with the home tab. -->
             <li class="nav-item" role="presentation">
                 <a
                 class="nav-link active"
@@ -52,9 +64,12 @@
                 role="tab"
                 aria-controls="pills-home"
                 aria-selected="true"
-                >&#x26A1; &#x1F4BC;</a
+                >Home &#x1F4BC;</a
                 >
             </li>
+
+            <!--
+            This is the pill associated with the Get Help tab. -->
             <li class="nav-item" role="presentation">
                 <a
                 class="nav-link"
@@ -64,9 +79,12 @@
                 role="tab"
                 aria-controls="pills-profile"
                 aria-selected="false"
-                ><span>&#129332;&#127996;</span></a
+                ><span>Get Help</span></a
                 >
             </li>
+
+            <!--
+            This is the pill associated with the Contact tab. -->
             <li class="nav-item" role="presentation">
                 <a
                 class="nav-link"
@@ -76,10 +94,11 @@
                 role="tab"
                 aria-controls="pills-contact"
                 aria-selected="false"
-                ><span>&#x1F30D; &#x1F4F2; 🇰🇪</span></a
+                ><span>Contact &#x1F4F2;</span></a
                 >
             </li>
-            </ul>
+
+          </ul>
         </div>
         
         <!--
@@ -95,10 +114,6 @@
                     aria-labelledby="pills-home-tab"
                 >
                 <hr><br>
-                    <p style="font-weight: bold;font-style: italic;">
-                      Some of the projects we have handled include, but not limited to, the following: 
-                    </p>
-                   <br><hr><br>
                     
                     <!--
                     1st container 
@@ -398,7 +413,7 @@
             </div>
                 <br><br>
         </div>
-        </div>
+      </div>
     </div>
 
 
